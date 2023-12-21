@@ -1,0 +1,62 @@
+@media (max-width: 900px) {
+
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+       
+        
+    }
+
+    #menu-list {
+        position: relative;
+        top: 60px;
+        left: 30px;
+        display: block;
+        overflow: hidden;
+        transition: all 0.8s  ease-in-out;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        
+        
+    }
+
+    .section-buy {
+        margin-bottom: 1.2rem;
+    }
+
+
+    .section-buy .box {
+        
+        transform: translateX(70px);
+        z-index: 0;
+      }
+
+    .menu-button {
+        cursor: pointer;
+        display: block;
+    }
+
+    
+
+    #menu-list li {
+        display: block;
+        margin-top: 5px;
+        margin: 0 0;
+    }
+
+    
+
+    
+}
+
+
+@keyframes moveController {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+
+    }
+}
